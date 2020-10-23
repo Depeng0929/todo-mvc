@@ -1,0 +1,20 @@
+{
+  "name": "todo-mvc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Depeng0929/todo-mvc.git",
+  "author": "depeng.kong <15365182986@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "parcel index.html --no-cache --open"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.11.0",
+    "eslint-config-alloy": "^3.8.2",
+    "prettier": "^2.1.2",
+    "sass": "^1.27.0",
+    "typescript": "^4.0.3"
+  }
+}
