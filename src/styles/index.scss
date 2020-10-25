@@ -1,3 +1,20 @@
-html, body {
-  background-color: red;
+* {
+  margin: 0;
+  padding: 0;
+}
+.input {
+  display: flex;
+}
+
+#app {
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+}
+.item {
+  color: red;
+  background-color: pink;
+  &.complete {
+    color: green;
+  }
 }
